@@ -20,10 +20,10 @@ function Contact() {
     e.preventDefault();
 
     emailjs.send(
-      'service_b7cmh27',
-      'template_bm0igng',
+      'service_8bg1phi',
+      'template_090u13b',
       formData,
-      'hqCquPmTif8SDh5KK'
+      's96oylX6r-ejGCZYy'
     )
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text);

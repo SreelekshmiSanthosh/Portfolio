@@ -1,6 +1,6 @@
 import styles from "./ProjectsStyles.module.css";
-import Todo from "../../assets/Todo.png";
-import weather from "../../assets/weatherapp.png";
+import staticpage from "../../assets/staticpage.png";
+import tb from "../../assets/Tb.png";
 import ProjectCards from "../../Common/ProjectCards";
 
 function Projects() {
@@ -9,15 +9,16 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCards
-          src={Todo}
-          p="Todo App"
-          link="https://kiranjithhardeepp.github.io/Todoapp-ReactJS/"
+          src={staticpage}
+          p="Static Website"
+          link="https://sreelekshmisanthosh.github.io/webpage/"
         />
         <ProjectCards
-          src={weather}
-          p="Weather APP"
-          link="https://kiranjithhardeepp.github.io/WheatherApp-React/"
+          src={tb}
+          p="Computer Aided Detection of Tuberculosis"
+          link="https://kiranjithhardeepp.github.io/Todoapp-ReactJS/"
         />
+        
       </div>
     </section>
   );

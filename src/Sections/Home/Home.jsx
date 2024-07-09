@@ -3,20 +3,18 @@ import styles from './HomeStyles.module.css';
 import heroImg from '../../assets/profilepic.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
-import twitterLight from '../../assets/twitter-light.svg';
-import twitterDark from '../../assets/twitter-dark.svg';
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/Kiranjithhardeep.pdf';
+import CV from '../../assets/SreelekshmiS.pdf';
 import { useTheme } from '../../Common/ThemeContext';
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
   const themeIcon = theme === 'light' ? sun : moon;
-  const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
+  
   const githubIcon = theme === 'light' ? githubLight : githubDark;
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
@@ -26,7 +24,7 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt="Profile picture of Sreelekshmi S"
         />
         <img
           className={styles.colorMode}
@@ -37,21 +35,18 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Kiranjith
-          <br />
-          Hardeep
+          Sreelekshmi S
+          
         </h1>
         <div className={styles.typing_effect}>
           <h2>Frontend DEVELOPER</h2>
         </div>
         <span>
-          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-            <img src={twitterIcon} alt="Twitter icon" />
-          </a>
-          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+         
+          <a href="https://github.com/SreelekshmiSanthosh" target="_blank" rel="noopener noreferrer">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/sreelekshmis/" target="_blank" rel="noopener noreferrer">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
