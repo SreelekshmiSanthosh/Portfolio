@@ -16,7 +16,7 @@ function Projects() {
         <ProjectCards
           src={tb}
           p="Computer Aided Detection of Tuberculosis"
-          link="https://kiranjithhardeepp.github.io/Todoapp-ReactJS/"
+          link="https://github.com/SreelekshmiSanthosh/TuberculosisDetection"
         />
         
       </div>
